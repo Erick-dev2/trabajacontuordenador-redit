@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+  <script src="main.js"></script>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,19 +45,22 @@
       </div>
     </header>
     <main>
+      <!-- <div style="margin-bottom: 85px; background-color: black;"></div> -->
       <!-- HERO SECTION -->
       <section class="section-hero">
+        
         <div class="container hero-box">
           <div class="hero-content margin-bottom">
             <h1 class="heading heading--1 margin-bottom">
                 Trabaja con tu ordenador
             </h1>
             <p class="description">
-                El único trabajo que te permite trabajar desde casa, solamente con un ordenador y con un horario totalmente flexible
+                El único trabajo que te permite trabajar desde casa,      
+                solamente con un ordenador y con un horario totalmente flexible.
             </p>
           </div>
           <div class="btn-group">
-            <button class="btn btn__primary margin-right margin-bottom">
+            <button class="btn btn__primary margin-right margin-bottom" onclick="openInNewTab('https://trabajacontuordenador.com/ver-la-propuesta-de-av/')">
               Nuestra Prouesta
             </button>
             
@@ -272,7 +276,7 @@
 
 
             </p>
-            <button class="btn btn__primary">¡Inscríbete hoy y empieza a transformar tu futuro con un ahorro exclusivo!</button>
+            <button class="btn btn__primary" onclick="openInNewTab('https://trabajacontuordenador.com/ver-la-propuesta-de-av/')">¡Inscríbete hoy y empieza a transformar tu futuro con un ahorro exclusivo!</button>
           </div>
 
           <div class="offer-img"></div>
@@ -494,7 +498,6 @@
             <textarea
               name="message"
               cols="5"
-              rows="3"
               class="form form__input"
               placeholder="Háblanos de ti!"
               ></textarea>
